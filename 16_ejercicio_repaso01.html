@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let palabra = prompt("Introduce una palabra en minúsculas");
+        let longitud = palabra.length/2;
+        let principio = palabra.substring(0,longitud);
+        let subcadena = palabra.substring(longitud);
+        let palabramayus = subcadena.toLocaleUpperCase();
+        let texto = principio + palabramayus;
+        console.log(texto);
+
+
+    </script>
+</body>
+
+</html>
